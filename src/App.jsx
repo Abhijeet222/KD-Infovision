@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
-import AIModel3D from "./components/AIModel3D";
 import Hero from './components/Hero';
 import Solutions from './components/Solutions';
 import DomainExpertise from './components/DomainExpertise';
@@ -24,7 +23,6 @@ function App() {
 
   return (
   <>
-   <AIModel3D/>  
     <div className="font-sans bg-[#151a2e] min-h-screen">
       <Header />
       <Routes>
